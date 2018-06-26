@@ -6,4 +6,4 @@ before script:
   - curl https://glide.sh/get
   - glide install
 script:
-  - go test ./...
+  - make
