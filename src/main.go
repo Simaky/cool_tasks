@@ -2,14 +2,14 @@ package main
 
 import (
 	"flag"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/config"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/database"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services"
+	"github.com/TheSimaa/cool_tasks/src/config"
+	"github.com/TheSimaa/cool_tasks/src/database"
+	"github.com/TheSimaa/cool_tasks/src/services"
 	"github.com/urfave/negroni"
 	"log"
 	"net/http"
 	"os"
-	"github.com/Nastya-Kruglikova/cool_tasks/src/services/auth"
+	"github.com/TheSimaa/cool_tasks/src/services/auth"
 )
 
 func main() {
