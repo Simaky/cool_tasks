@@ -1,4 +1,3 @@
-package: github.com/TheSimaa/cool_tasks/src
 import:
 - package: github.com/alicebob/miniredis
 - package: github.com/garyburd/redigo
