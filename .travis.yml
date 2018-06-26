@@ -5,4 +5,4 @@ before script:
   - curl https://glide.sh/get
   - glide install
 script:
-  - cd src make
+  - make -C src -f Makefile
