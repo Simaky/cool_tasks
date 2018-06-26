@@ -4,5 +4,7 @@ go:
 before script:
   - curl https://glide.sh/get | sh
   - glide install
+  - go get -u gopkg.in/alecthomas/gometalinter.v2
 script:
   - go test ./...
+  - gometalinter
