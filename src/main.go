@@ -58,4 +58,3 @@ func main() {
 	}
 	log.Printf("Stop running application: %s", err)
 }
- 
